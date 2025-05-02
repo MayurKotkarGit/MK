@@ -10,7 +10,7 @@ as
 BEGIN
  
  SELECT * FROM dimsource
- order by 2
+ order by 1
 
 
 
