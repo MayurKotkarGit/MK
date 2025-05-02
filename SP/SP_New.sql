@@ -10,7 +10,8 @@ as
 BEGIN
  
  SELECT * FROM dimsource
- order by 2 desc
+where sourcealtkey=1 
+order by 1
 
 
 
