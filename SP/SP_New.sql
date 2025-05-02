@@ -9,7 +9,7 @@ create proc [dbo].[SP_New]
 as
 BEGIN
  
- SELECT * FROM dimsource
+ SELECT 1 FROM dimsource
 where sourcealtkey=1 
 order by 1
 
