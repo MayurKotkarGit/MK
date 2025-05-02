@@ -10,6 +10,7 @@ as
 BEGIN
  
  SELECT * FROM dimsource
+ order by 1
 
 
 
