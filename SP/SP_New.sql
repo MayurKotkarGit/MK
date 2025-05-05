@@ -14,6 +14,8 @@ where sourcealtkey=1
 --GROUP by sourcealtkey
 --order by 1 DESC
 
+SELECT sourcealtkey,* FROM dimsource
+
 END
 GO
  
