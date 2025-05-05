@@ -8,13 +8,18 @@ GO
 create proc [dbo].[SP_New]
 as
 BEGIN
- 
-SELECT sourcealtkey,* FROM dimsource
-where sourcealtkey=1 
---GROUP by sourcealtkey
---order by 1 DESC
 
-SELECT sourcealtkey,* FROM dimsource
+    SELECT sourcealtkey, *
+    FROM dimsource
+    where sourcealtkey=1
+    --GROUP by sourcealtkey
+    --order by 1 DESC
+
+    SELECT sourcealtkey, *
+    FROM dimsource
+
+
+    UPDATE dimsource set sourcealtkey = 0 where sourcealtkey = -1
 
 END
 GO
