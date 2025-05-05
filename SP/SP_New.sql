@@ -9,8 +9,9 @@ create proc [dbo].[SP_New]
 as
 BEGIN
  
- SELECT * FROM dimsource
+SELECT sourcealtkey FROM dimsource
 where sourcealtkey=1 
+GROUP by sourcealtkey
 order by 1
 
 
