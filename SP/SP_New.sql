@@ -12,7 +12,7 @@ BEGIN
 SELECT sourcealtkey FROM dimsource
 where sourcealtkey=1 
 GROUP by sourcealtkey
-order by 1 DESC
+--order by 1 DESC
 
 
 
