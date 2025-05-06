@@ -18,7 +18,6 @@ BEGIN
     SELECT sourcealtkey, *
     FROM dimsource
 
-
     UPDATE dimsource set sourcealtkey = 0 where sourcealtkey = -1
 
 END

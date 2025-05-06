@@ -1,0 +1,4 @@
+
+SELECT sourcealtkey, *
+FROM dimsource
+
