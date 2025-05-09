@@ -1,6 +1,2 @@
-
-SELECT sourcealtkey, *
-FROM dimsource
-where sourcealtkey = 10
-ORDER BY 1
-
+print '06052025'
+print '07052025'
